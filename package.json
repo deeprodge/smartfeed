@@ -11,6 +11,7 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.57.0",
     "@composio/core": "^0.1.39",
+    "openai": "^4.0.0",
     "@pinecone-database/pinecone": "^6.1.2",
     "@radix-ui/react-dialog": "^1.1.14",
     "@radix-ui/react-progress": "^1.1.7",

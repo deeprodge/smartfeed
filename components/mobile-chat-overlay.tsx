@@ -23,7 +23,7 @@ export function MobileChatOverlay() {
             <SheetTitle>Chat Assistant</SheetTitle>
           </SheetHeader>
           <div className="h-full mt-4">
-            <ChatSidebar />
+            <ChatSidebar isOpen={true} onToggle={() => setIsOpen(false)} />
           </div>
         </SheetContent>
       </Sheet>

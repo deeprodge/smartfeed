@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+test-curl.sh
+test-sync-button.md
+test-twitter-ingestion.js
+TESTING-GUIDE.md
+TESTING-SUMMARY.md

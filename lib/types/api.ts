@@ -52,4 +52,25 @@ export interface SummaryResponse {
   summary: string;
   key_points?: string[];
   word_count: number;
-} 
+}
+
+export interface XBookmarksRequest {
+  data: Array<{
+    id: string;
+    text: string;
+    created_at: string;
+    author_id: string;
+    public_metrics: Record<string, any>;
+    notes?: string;
+  }>;
+}
+
+export interface XBookmarksResponse {
+  success: boolean;
+  items: Array<{
+    itemId: string;
+    summary: string;
+    category: string;
+  }>;
+  message: string;
+}
