@@ -10,12 +10,13 @@ export interface User {
 export interface ContentItem {
   id: string;
   user_id: string;
-  platform: 'x' | 'youtube';
-  external_id: string;
+  platform: 'instagram' | 'youtube' | 'twitter';
+  external_id?: string;
   title?: string;
   description?: string;
   content?: string;
   url?: string;
+  thumbnail_url?: string;
   media_urls?: string[];
   category?: 'learn' | 'plan' | 'ideate' | 'cook' | 'shop';
   confidence_score?: number;
