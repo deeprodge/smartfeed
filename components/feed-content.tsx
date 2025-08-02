@@ -6,7 +6,7 @@ import { ContentCard } from "@/components/content-card"
 import { cn } from "@/lib/utils"
 
 const filterOptions = [
-  { id: "all", label: "All", count: 127 },
+  { id: "all", label: "All", count: 129 },
   { id: "learn", label: "Learn", count: 45 },
   { id: "plan", label: "Plan", count: 23 },
   { id: "ideate", label: "Ideate", count: 18 },
@@ -15,6 +15,24 @@ const filterOptions = [
 ]
 
 const mockContent = [
+  {
+    id: "youtube-test-1",
+    title: "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
+    description: "The official video for 'Never Gonna Give You Up' by Rick Astley. Never: The Autobiography 📚 OUT NOW! Follow this link to get your copy and listen to Rick's 'Never' playlist ❤️ #RickAstleyNever",
+    platform: "youtube",
+    category: "Music",
+    type: "Video",
+    date: "2025-08-02",
+  },
+  {
+    id: "youtube-test-2",
+    title: "Qualifying Highlights | 2025 Hungarian Grand Prix",
+    description: "Catch up on all the action from a thrilling Qualifying session, which saw a first pole position of the season, and the closest top-10 in Formula 1 history!",
+    platform: "youtube",
+    category: "Sports",
+    type: "Video",
+    date: "2025-08-02",
+  },
   {
     id: "1",
     title: "Understanding the Basics of Machine Learning",
